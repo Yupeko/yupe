@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
+
+
+
+/*---ここからヘッダー---*/
+header {
+    background-color: #323232;
+    width: 100%;
+    height: 80px;
+}
+.header-container01-left {
+    display: inline-block;
+    float: left;
+    width: 180px;
+    height: 80px;
+    background-color: #fff;
+}
+.header-container01-left img {
+    padding: 13px 0px 0px 10px;
+}
+.header-container01 {
+    background-color: aliceblue;
+    height: 40px;
+}
+.header-container02 {
+    background-color: #1C7E63;
+    height: 40px;
+}
+.header-container01-right {
+    float: right;
+}
+.btn-eng, .btn-ecosystem {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 3px 10px;
+    border: 0.5px solid #7A7777;
+    padding: 0px 15px;
+    transition: all 0.3s;
+    letter-spacing: 0.5px;
+}
+.btn-eng, .btn-ecosystem:hover {
+    background-color: #1C7E63;
+    color: #fff;
+}
+nav ul {
+    float: right;
+    display: flex;
+    line-height: 40px;
+    color: #fff;
+}
+nav li {
+    padding: 0px 30px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+nav li:hover {
+    background: #fff;
+    color: #333333
+}
+
+/*---ここからトップコンテンツ---*/
+
+.top-wrapper{
+    width: 960px;
+    height:635px;
+    margin: auto;
+    background: #ffffff;
+    
+    
+}
+
+.top-item01,.top-item02,.top-item03,.top-item04{
+    display: inline-block;
+    
+}
+
+.top-item01,.top-item03{
+    margin-left: 100px
+}
+
+.top-item02,.top-item04{
+    float:right;
+    margin-right: 100px;
+}
+
+.top-item01,.top-item02{
+        margin-top: 50px;
+}
+
+
+
+.top-text-contents{
+    display: flex;
+    font-size: 16px;
+    line-height: 200px;
+    margin:0px 50px;
+}
+
+/*---ここからメインのSDGSコンテンツ---*/
+
+.contents-sdgs{
+    background: #fff;
+    width: 100%;
+    display: flex;
+    margin-top:100px;
+    height: 500px;
+    
+}
+
+.contents-sdgs-02{
+    text-align: center;
+    padding: 100px 80px 50px 80px;
+    letter-spacing: 0.5px;
+    max-width: 800px;
+}
+
+.contents-sdgs-02 h1{
+    font-size: 30px;
+    
+}
+
+.contents-sdgs-02 h1 span{
+    font-family: "Meiryo UI", "Noto Sans CJK JP", Arial, "Yu Gothic UI";
+}
+
+.contents-sdgs-02 h3{
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+
+.contents-sdgs-02 p{
+    font-size: 16px;
+    margin:40px 0px;
+}
+
+.contents-sdgs-02 a{
+color: #333;
+    display: block;
+    background-color: #E0E0E0;
+    margin:15px 10px 0px 10px;
+    padding: 0px;
+    border-radius: 10px;
+    
+}
+
+.contents-sdgs-02 a span{
+    background: #333;
+    color: #fff;
+    float:right;
+    display: inline-block;
+    padding: 0px 40px ;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.contents-sdgs img{
+    height: 80%;;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
